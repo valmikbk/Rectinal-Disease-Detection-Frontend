@@ -1,16 +1,17 @@
-import logo from './logo.svg';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
-import Main from './Components/Main';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import SmartReferral from "./Pages/SmartReferral";
+import TreatmentPathways from "./Pages/TreatmentPathways";
+import MediCareDashboard from "./Components/MediCareDashboard";
 
-function App() {
+export default function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Main />} />
-        </Routes>
-    </Router>
+        <Route path="/" element={<MediCareDashboard />} />
+        {/* <Route path="/referral" element={<SmartReferral />} />
+        <Route path="/treatment" element={<TreatmentPathways />} /> */}
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
