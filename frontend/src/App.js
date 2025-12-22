@@ -1,17 +1,18 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
-import SmartReferral from "./Pages/SmartReferral";
-import TreatmentPathways from "./Pages/TreatmentPathways";
-// import MediCareDashboard from "./Components/MediCareDashboard";
+import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css';
+// import Main from './Components/Main';
 import MediCareDashboard from './Components/MediCareDashboard';
 import SmartReferral from './Components/SmartReferral';
 import TreatmentPathways from './Components/TreatmentPathways';
-export default function App() {
+function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<MediCareDashboard />} />
         </Routes>
     </Router>
   );
 }
+
+export default App;
