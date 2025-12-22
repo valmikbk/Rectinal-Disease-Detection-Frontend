@@ -125,7 +125,8 @@ const MediCareDashboard = () => {
                 >
                   Camera Detection
                 </Button>
-<Button
+
+                <Button
                   fullWidth
                   size="large"
                   startIcon={<CloudUploadIcon />}
