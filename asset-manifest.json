@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Rectinal-Disease-Detection-Frontend/static/js/main.851009a7.js",
+    "main.js": "/Rectinal-Disease-Detection-Frontend/static/js/main.33a59065.js",
     "static/media/eyeImage.png": "/Rectinal-Disease-Detection-Frontend/static/media/eyeImage.217326de959551bb5119.png",
     "static/media/fundus4_analyzed.png": "/Rectinal-Disease-Detection-Frontend/static/media/fundus4_analyzed.50fa214c60fa4be715cb.png",
     "static/media/fundus3_analyzed.png": "/Rectinal-Disease-Detection-Frontend/static/media/fundus3_analyzed.dab056e2eaaa029ba948.png",
@@ -10,9 +10,9 @@
     "static/media/fudus4.jpeg": "/Rectinal-Disease-Detection-Frontend/static/media/fudus4.a427c6b129e5b0c863c3.jpeg",
     "static/media/fudus1.jpeg": "/Rectinal-Disease-Detection-Frontend/static/media/fudus1.70ce0544e7aae8973ae4.jpeg",
     "index.html": "/Rectinal-Disease-Detection-Frontend/index.html",
-    "main.851009a7.js.map": "/Rectinal-Disease-Detection-Frontend/static/js/main.851009a7.js.map"
+    "main.33a59065.js.map": "/Rectinal-Disease-Detection-Frontend/static/js/main.33a59065.js.map"
   },
   "entrypoints": [
-    "static/js/main.851009a7.js"
+    "static/js/main.33a59065.js"
   ]
 }
